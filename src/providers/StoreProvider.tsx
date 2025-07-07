@@ -1,5 +1,6 @@
 "use client";
 import { AppStore, makeStore } from "@/redux/store";
+import { SessionProvider } from "next-auth/react";
 import { useRef } from "react";
 import { Provider } from "react-redux";
 
@@ -14,5 +15,9 @@ export default function StoreProvider({
     storeRef.current = makeStore();
   }
 
-  return <Provider store={storeRef.current}>{children}</Provider>;
+  return (
+    <SessionProvider>
+      <Provider store={storeRef.current}>{children}</Provider>
+    </SessionProvider>
+  );
 }
