@@ -86,12 +86,27 @@ To set up the project locally, follow these instructions:
 
    ```
 
-3. **Start the development server**:
+3. **Add a .env.local file with the following:**:
+
+   ```
+
+   GOOGLE_CLIENT_ID=your_google_client_id
+   GOOGLE_CLIENT_SECRET=your_google_client_secret
+   NEXTAUTH_URL=http://localhost:3000
+   NEXTAUTH_SECRET=your_random_secret
+
+
+   ```
+
+4. **Start the development server**:
 
    ```bash
    npm run dev
    ```
 
-4. **Open site **:
+5. **Open site **:
 
+```
    Open: http://localhost:3000
+
+```
