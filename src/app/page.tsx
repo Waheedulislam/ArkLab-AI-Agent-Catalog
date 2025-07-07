@@ -1,9 +1,11 @@
 import AgentCatalogPage from "@/components/modules/AgentCatalog";
+import Navbar from "@/components/shared/navbar";
 import React from "react";
 
 const HomePage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
+      <Navbar />
       <div className="container mx-auto px-4 pt-8">
         <header className="text-center ">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
