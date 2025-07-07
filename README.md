@@ -61,18 +61,28 @@ This project was built as part of the **ArkLab Frontend Developer Intern - Take-
 
 ## 🧪 How to Run Locally
 
-1. **Clone the repo:**
+To set up the project locally, follow these instructions:
 
-```bash
-git clone https://github.com/Waheedulislam/ArkLab-AI-Agent-Catalog.git
-cd arklab-ai-catalog
+1. **Clone the repository**:
 
----
+   ```bash
+   git clone https://github.com/Waheedulislam/ArkLab-AI-Agent-Catalog.git
 
+   ```
 
+2. **Install dependencies**:
 
-```
+   ```bash
+   npm install
 
-Install dependencies:
-npm install
-Run the development server:
+   ```
+
+3. **Start the development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open site **:
+
+   Open: http://localhost:3000
