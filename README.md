@@ -23,6 +23,7 @@ This project was built as part of the **ArkLab Frontend Developer Intern - Take-
 ✅ Mobile-first responsive design  
 ✅ Clear All Filters button  
 ✅ Accordion-style collapsible filters (Shadcn Accordion)
+✅ **Google login authentication using NextAuth.js** 🔐
 
 ---
 
@@ -56,6 +57,14 @@ This project was built as part of the **ArkLab Frontend Developer Intern - Take-
 │ └── agentSlice.ts
 ├── data/
 │ └── mock-agents.json
+
+---
+
+## 🎁 Bonus Features
+
+- 🔐 Integrated **Google Authentication** using NextAuth.js
+- 👤 Shows user's avatar and name in the Navbar after login
+- 🚪 Logout button with session clearing
 
 ---
 
